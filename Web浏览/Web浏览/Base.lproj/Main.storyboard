@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P77-Zg-cmy">
+                                <rect key="frame" x="80" y="80" width="160" height="30"/>
+                                <state key="normal" title="open in safari">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mP9-6O-Ev4">
+                                <rect key="frame" x="80" y="269" width="160" height="30"/>
+                                <state key="normal" title="open with webView">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3f0-eQ-LYD">
+                                <rect key="frame" x="80" y="478" width="160" height="30"/>
+                                <state key="normal" title="open with safariViewConreoller">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3f0-eQ-LYD" firstAttribute="centerX" secondItem="mP9-6O-Ev4" secondAttribute="centerX" id="9cZ-Ew-RAB"/>
+                            <constraint firstItem="3f0-eQ-LYD" firstAttribute="width" secondItem="P77-Zg-cmy" secondAttribute="width" id="HLU-v8-ajE"/>
+                            <constraint firstItem="P77-Zg-cmy" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="60" id="Lc5-Jp-ogU"/>
+                            <constraint firstAttribute="trailing" secondItem="P77-Zg-cmy" secondAttribute="trailing" constant="80" id="Lv7-0K-xuz"/>
+                            <constraint firstItem="3f0-eQ-LYD" firstAttribute="centerX" secondItem="P77-Zg-cmy" secondAttribute="centerX" id="Qi3-gC-KHL"/>
+                            <constraint firstItem="3f0-eQ-LYD" firstAttribute="width" secondItem="mP9-6O-Ev4" secondAttribute="width" id="Yrb-N4-dRo"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="3f0-eQ-LYD" secondAttribute="bottom" constant="60" id="aja-Hj-8FL"/>
+                            <constraint firstItem="3f0-eQ-LYD" firstAttribute="height" secondItem="mP9-6O-Ev4" secondAttribute="height" id="bxv-DY-trh"/>
+                            <constraint firstItem="3f0-eQ-LYD" firstAttribute="height" secondItem="P77-Zg-cmy" secondAttribute="height" id="jTU-29-xpY"/>
+                            <constraint firstAttribute="centerY" secondItem="mP9-6O-Ev4" secondAttribute="centerY" id="mjO-Nm-z57"/>
+                            <constraint firstItem="P77-Zg-cmy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="80" id="ty7-tY-CwF"/>
+                            <constraint firstAttribute="centerX" secondItem="mP9-6O-Ev4" secondAttribute="centerX" id="wSX-0S-MbK"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="SFCBtn" destination="3f0-eQ-LYD" id="UdN-L4-bVo"/>
+                        <outlet property="safariBtn" destination="P77-Zg-cmy" id="0n7-we-wsf"/>
+                        <outlet property="webBtn" destination="mP9-6O-Ev4" id="iFQ-qh-ay9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="167" y="257"/>
+        </scene>
+    </scenes>
+</document>

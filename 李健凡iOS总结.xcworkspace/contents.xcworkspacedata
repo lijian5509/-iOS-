@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:&#x624b;&#x52bf;&#x5bc6;&#x7801;/&#x624b;&#x52bf;&#x5bc6;&#x7801;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LJFNavigationCV/LJFNavigationCV.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CoreData/CoreData.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:HTTP&#x53c2;&#x6570;&#x8bf7;&#x6c42;/HTTP&#x53c2;&#x6570;&#x8bf7;&#x6c42;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x56fd;&#x9645;&#x5316;/&#x56fd;&#x9645;&#x5316;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:swift&#x7ed8;&#x56fe;&#x677f;/swift&#x7ed8;&#x56fe;&#x677f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x5e7f;&#x544a;&#x680f;/&#x5e7f;&#x544a;&#x680f;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LJFStatic/LJFStatic.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x591a;&#x7167;&#x7247;&#x9009;&#x53d6;/&#x591a;&#x7167;&#x7247;&#x9009;&#x53d6;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:swift&#x4eff;&#x5fae;&#x4fe1;&#x952e;&#x76d8;&#x53d8;&#x5316;/swift&#x4eff;&#x5fae;&#x4fe1;&#x952e;&#x76d8;&#x53d8;&#x5316;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ContactsFR-&#x8bfb;&#x53d6;&#x8054;&#x7cfb;&#x4eba;/ContactsFR-&#x8bfb;&#x53d6;&#x8054;&#x7cfb;&#x4eba;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ContactsF&#x8bfb;&#x53d6;&#x8054;&#x7cfb;&#x4eba;/ContactsF&#x8bfb;&#x53d6;&#x8054;&#x7cfb;&#x4eba;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:iOS8&#x6269;&#x5c55;-&#x81ea;&#x5b9a;&#x4e49;&#x952e;&#x76d8;&#x63a7;&#x4ef6;/iOS8&#x6269;&#x5c55;-&#x81ea;&#x5b9a;&#x4e49;&#x952e;&#x76d8;&#x63a7;&#x4ef6;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x84dd;&#x7259;&#x5f00;&#x53d1;/&#x84dd;&#x7259;&#x5f00;&#x53d1;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Web&#x6d4f;&#x89c8;/Web&#x6d4f;&#x89c8;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x76f8;&#x518c;&#x5217;&#x8868;/&#x76f8;&#x518c;&#x5217;&#x8868;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TodayTest/TodayTest.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:&#x4ee3;&#x7801;&#x5e03;&#x5c40;&#x7b49;&#x6bd4;&#x9002;&#x914d;/&#x4ee3;&#x7801;&#x5e03;&#x5c40;&#x7b49;&#x6bd4;&#x9002;&#x914d;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MyFramWork/MyFramWork.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:&#x89c6;&#x9891;&#x529f;&#x80fd;&#x6a21;&#x5757;/&#x89c6;&#x9891;&#x529f;&#x80fd;&#x6a21;&#x5757;.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:GCD&#x77e5;&#x8bc6;&#x8bb2;&#x89e3;/GCD&#x77e5;&#x8bc6;&#x8bb2;&#x89e3;.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:Runtime&#x7ec3;&#x4e60;"
+      name = "Runtime&#x7ec3;&#x4e60;">
+      <Group
+         location = "group:Runtime&#x7ec3;&#x4e60;"
+         name = "Runtime&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:AppDelegate.h">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.m">
+         </FileRef>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.xib">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Father.h">
+         </FileRef>
+         <FileRef
+            location = "group:Father.m">
+         </FileRef>
+         <Group
+            location = "group:Images.xcassets"
+            name = "Images.xcassets">
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:ViewController.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Runtime&#x7ec3;&#x4e60;.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Runtime&#x7ec3;&#x4e60;Tests"
+         name = "Runtime&#x7ec3;&#x4e60;Tests">
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:Runtime__Tests.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:TodayWidgetDemo"
+         name = "TodayWidgetDemo">
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+         <FileRef
+            location = "group:MainInterface.storyboard">
+         </FileRef>
+         <FileRef
+            location = "group:TodayViewController.h">
+         </FileRef>
+         <FileRef
+            location = "group:TodayViewController.m">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

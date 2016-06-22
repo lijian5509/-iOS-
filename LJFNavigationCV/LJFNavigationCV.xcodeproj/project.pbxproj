@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D782CB11C2A91C500E00AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D782CB01C2A91C500E00AB3 /* main.m */; };
+		3D782CB41C2A91C500E00AB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D782CB31C2A91C500E00AB3 /* AppDelegate.m */; };
+		3D782CB71C2A91C500E00AB3 /* NAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D782CB61C2A91C500E00AB3 /* NAViewController.m */; };
+		3D782CBA1C2A91C500E00AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D782CB81C2A91C500E00AB3 /* Main.storyboard */; };
+		3D782CBC1C2A91C500E00AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D782CBB1C2A91C500E00AB3 /* Assets.xcassets */; };
+		3D782CBF1C2A91C500E00AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D782CBD1C2A91C500E00AB3 /* LaunchScreen.storyboard */; };
+		3D782CCA1C2A91C500E00AB3 /* LJFNavigationCVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D782CC91C2A91C500E00AB3 /* LJFNavigationCVTests.m */; };
+		3D782CD51C2A91C500E00AB3 /* LJFNavigationCVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D782CD41C2A91C500E00AB3 /* LJFNavigationCVUITests.m */; };
+		3D782CE31C2A91D800E00AB3 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3D782CE21C2A91D800E00AB3 /* bg.jpg */; };
+		3D782CE91C2A946900E00AB3 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D782CE81C2A946900E00AB3 /* TwoViewController.m */; };
+		3D782CED1C2A99E400E00AB3 /* UINavigationBar+LJFNaviFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D782CEC1C2A99E400E00AB3 /* UINavigationBar+LJFNaviFix.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D782CC61C2A91C500E00AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D782CA41C2A91C400E00AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D782CAB1C2A91C400E00AB3;
+			remoteInfo = LJFNavigationCV;
+		};
+		3D782CD11C2A91C500E00AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D782CA41C2A91C400E00AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D782CAB1C2A91C400E00AB3;
+			remoteInfo = LJFNavigationCV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D782CAC1C2A91C400E00AB3 /* LJFNavigationCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJFNavigationCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D782CB01C2A91C500E00AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D782CB21C2A91C500E00AB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D782CB31C2A91C500E00AB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D782CB51C2A91C500E00AB3 /* NAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAViewController.h; sourceTree = "<group>"; };
+		3D782CB61C2A91C500E00AB3 /* NAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAViewController.m; sourceTree = "<group>"; };
+		3D782CB91C2A91C500E00AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D782CBB1C2A91C500E00AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D782CBE1C2A91C500E00AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D782CC01C2A91C500E00AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D782CC51C2A91C500E00AB3 /* LJFNavigationCVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJFNavigationCVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D782CC91C2A91C500E00AB3 /* LJFNavigationCVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJFNavigationCVTests.m; sourceTree = "<group>"; };
+		3D782CCB1C2A91C500E00AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D782CD01C2A91C500E00AB3 /* LJFNavigationCVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJFNavigationCVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D782CD41C2A91C500E00AB3 /* LJFNavigationCVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJFNavigationCVUITests.m; sourceTree = "<group>"; };
+		3D782CD61C2A91C500E00AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D782CE21C2A91D800E00AB3 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
+		3D782CE71C2A946900E00AB3 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		3D782CE81C2A946900E00AB3 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		3D782CEB1C2A99E400E00AB3 /* UINavigationBar+LJFNaviFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+LJFNaviFix.h"; sourceTree = "<group>"; };
+		3D782CEC1C2A99E400E00AB3 /* UINavigationBar+LJFNaviFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+LJFNaviFix.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D782CA91C2A91C400E00AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D782CC21C2A91C500E00AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D782CCD1C2A91C500E00AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D782CA31C2A91C400E00AB3 = {
+			isa = PBXGroup;
+			children = (
+				3D782CAE1C2A91C400E00AB3 /* LJFNavigationCV */,
+				3D782CC81C2A91C500E00AB3 /* LJFNavigationCVTests */,
+				3D782CD31C2A91C500E00AB3 /* LJFNavigationCVUITests */,
+				3D782CAD1C2A91C400E00AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D782CAD1C2A91C400E00AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D782CAC1C2A91C400E00AB3 /* LJFNavigationCV.app */,
+				3D782CC51C2A91C500E00AB3 /* LJFNavigationCVTests.xctest */,
+				3D782CD01C2A91C500E00AB3 /* LJFNavigationCVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D782CAE1C2A91C400E00AB3 /* LJFNavigationCV */ = {
+			isa = PBXGroup;
+			children = (
+				3D782CEA1C2A999A00E00AB3 /* LJFNav */,
+				3D782CB21C2A91C500E00AB3 /* AppDelegate.h */,
+				3D782CB31C2A91C500E00AB3 /* AppDelegate.m */,
+				3D782CB51C2A91C500E00AB3 /* NAViewController.h */,
+				3D782CB61C2A91C500E00AB3 /* NAViewController.m */,
+				3D782CE71C2A946900E00AB3 /* TwoViewController.h */,
+				3D782CE81C2A946900E00AB3 /* TwoViewController.m */,
+				3D782CB81C2A91C500E00AB3 /* Main.storyboard */,
+				3D782CBB1C2A91C500E00AB3 /* Assets.xcassets */,
+				3D782CBD1C2A91C500E00AB3 /* LaunchScreen.storyboard */,
+				3D782CC01C2A91C500E00AB3 /* Info.plist */,
+				3D782CAF1C2A91C500E00AB3 /* Supporting Files */,
+			);
+			path = LJFNavigationCV;
+			sourceTree = "<group>";
+		};
+		3D782CAF1C2A91C500E00AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D782CE21C2A91D800E00AB3 /* bg.jpg */,
+				3D782CB01C2A91C500E00AB3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D782CC81C2A91C500E00AB3 /* LJFNavigationCVTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D782CC91C2A91C500E00AB3 /* LJFNavigationCVTests.m */,
+				3D782CCB1C2A91C500E00AB3 /* Info.plist */,
+			);
+			path = LJFNavigationCVTests;
+			sourceTree = "<group>";
+		};
+		3D782CD31C2A91C500E00AB3 /* LJFNavigationCVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D782CD41C2A91C500E00AB3 /* LJFNavigationCVUITests.m */,
+				3D782CD61C2A91C500E00AB3 /* Info.plist */,
+			);
+			path = LJFNavigationCVUITests;
+			sourceTree = "<group>";
+		};
+		3D782CEA1C2A999A00E00AB3 /* LJFNav */ = {
+			isa = PBXGroup;
+			children = (
+				3D782CEB1C2A99E400E00AB3 /* UINavigationBar+LJFNaviFix.h */,
+				3D782CEC1C2A99E400E00AB3 /* UINavigationBar+LJFNaviFix.m */,
+			);
+			name = LJFNav;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D782CAB1C2A91C400E00AB3 /* LJFNavigationCV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D782CD91C2A91C500E00AB3 /* Build configuration list for PBXNativeTarget "LJFNavigationCV" */;
+			buildPhases = (
+				3D782CA81C2A91C400E00AB3 /* Sources */,
+				3D782CA91C2A91C400E00AB3 /* Frameworks */,
+				3D782CAA1C2A91C400E00AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJFNavigationCV;
+			productName = LJFNavigationCV;
+			productReference = 3D782CAC1C2A91C400E00AB3 /* LJFNavigationCV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D782CC41C2A91C500E00AB3 /* LJFNavigationCVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D782CDC1C2A91C500E00AB3 /* Build configuration list for PBXNativeTarget "LJFNavigationCVTests" */;
+			buildPhases = (
+				3D782CC11C2A91C500E00AB3 /* Sources */,
+				3D782CC21C2A91C500E00AB3 /* Frameworks */,
+				3D782CC31C2A91C500E00AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D782CC71C2A91C500E00AB3 /* PBXTargetDependency */,
+			);
+			name = LJFNavigationCVTests;
+			productName = LJFNavigationCVTests;
+			productReference = 3D782CC51C2A91C500E00AB3 /* LJFNavigationCVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D782CCF1C2A91C500E00AB3 /* LJFNavigationCVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D782CDF1C2A91C500E00AB3 /* Build configuration list for PBXNativeTarget "LJFNavigationCVUITests" */;
+			buildPhases = (
+				3D782CCC1C2A91C500E00AB3 /* Sources */,
+				3D782CCD1C2A91C500E00AB3 /* Frameworks */,
+				3D782CCE1C2A91C500E00AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D782CD21C2A91C500E00AB3 /* PBXTargetDependency */,
+			);
+			name = LJFNavigationCVUITests;
+			productName = LJFNavigationCVUITests;
+			productReference = 3D782CD01C2A91C500E00AB3 /* LJFNavigationCVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D782CA41C2A91C400E00AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mini;
+				TargetAttributes = {
+					3D782CAB1C2A91C400E00AB3 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					3D782CC41C2A91C500E00AB3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3D782CAB1C2A91C400E00AB3;
+					};
+					3D782CCF1C2A91C500E00AB3 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 3D782CAB1C2A91C400E00AB3;
+					};
+				};
+			};
+			buildConfigurationList = 3D782CA71C2A91C400E00AB3 /* Build configuration list for PBXProject "LJFNavigationCV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D782CA31C2A91C400E00AB3;
+			productRefGroup = 3D782CAD1C2A91C400E00AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D782CAB1C2A91C400E00AB3 /* LJFNavigationCV */,
+				3D782CC41C2A91C500E00AB3 /* LJFNavigationCVTests */,
+				3D782CCF1C2A91C500E00AB3 /* LJFNavigationCVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D782CAA1C2A91C400E00AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D782CBF1C2A91C500E00AB3 /* LaunchScreen.storyboard in Resources */,
+				3D782CBC1C2A91C500E00AB3 /* Assets.xcassets in Resources */,
+				3D782CE31C2A91D800E00AB3 /* bg.jpg in Resources */,
+				3D782CBA1C2A91C500E00AB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D782CC31C2A91C500E00AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D782CCE1C2A91C500E00AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D782CA81C2A91C400E00AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D782CB71C2A91C500E00AB3 /* NAViewController.m in Sources */,
+				3D782CB41C2A91C500E00AB3 /* AppDelegate.m in Sources */,
+				3D782CB11C2A91C500E00AB3 /* main.m in Sources */,
+				3D782CED1C2A99E400E00AB3 /* UINavigationBar+LJFNaviFix.m in Sources */,
+				3D782CE91C2A946900E00AB3 /* TwoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D782CC11C2A91C500E00AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D782CCA1C2A91C500E00AB3 /* LJFNavigationCVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D782CCC1C2A91C500E00AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D782CD51C2A91C500E00AB3 /* LJFNavigationCVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D782CC71C2A91C500E00AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D782CAB1C2A91C400E00AB3 /* LJFNavigationCV */;
+			targetProxy = 3D782CC61C2A91C500E00AB3 /* PBXContainerItemProxy */;
+		};
+		3D782CD21C2A91C500E00AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D782CAB1C2A91C400E00AB3 /* LJFNavigationCV */;
+			targetProxy = 3D782CD11C2A91C500E00AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D782CB81C2A91C500E00AB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D782CB91C2A91C500E00AB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D782CBD1C2A91C500E00AB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D782CBE1C2A91C500E00AB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D782CD71C2A91C500E00AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D782CD81C2A91C500E00AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D782CDA1C2A91C500E00AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJFNavigationCV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haijia.828.LJFNavigationCV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D782CDB1C2A91C500E00AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJFNavigationCV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haijia.828.LJFNavigationCV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D782CDD1C2A91C500E00AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LJFNavigationCVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haijia.828.LJFNavigationCVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJFNavigationCV.app/LJFNavigationCV";
+			};
+			name = Debug;
+		};
+		3D782CDE1C2A91C500E00AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LJFNavigationCVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haijia.828.LJFNavigationCVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJFNavigationCV.app/LJFNavigationCV";
+			};
+			name = Release;
+		};
+		3D782CE01C2A91C500E00AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LJFNavigationCVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haijia.828.LJFNavigationCVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJFNavigationCV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3D782CE11C2A91C500E00AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LJFNavigationCVUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haijia.828.LJFNavigationCVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJFNavigationCV;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D782CA71C2A91C400E00AB3 /* Build configuration list for PBXProject "LJFNavigationCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D782CD71C2A91C500E00AB3 /* Debug */,
+				3D782CD81C2A91C500E00AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D782CD91C2A91C500E00AB3 /* Build configuration list for PBXNativeTarget "LJFNavigationCV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D782CDA1C2A91C500E00AB3 /* Debug */,
+				3D782CDB1C2A91C500E00AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D782CDC1C2A91C500E00AB3 /* Build configuration list for PBXNativeTarget "LJFNavigationCVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D782CDD1C2A91C500E00AB3 /* Debug */,
+				3D782CDE1C2A91C500E00AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D782CDF1C2A91C500E00AB3 /* Build configuration list for PBXNativeTarget "LJFNavigationCVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D782CE01C2A91C500E00AB3 /* Debug */,
+				3D782CE11C2A91C500E00AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D782CA41C2A91C400E00AB3 /* Project object */;
+}

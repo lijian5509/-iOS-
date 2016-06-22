@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dhS-OD-vsi">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="09b-xz-S3Z">
+            <objects>
+                <navigationController id="dhS-OD-vsi" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Znb-DM-6oB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="Xzo-RC-stQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pMu-ZI-9pS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-633" y="47"/>
+        </scene>
+        <!--搜索-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="关键字搜索..." clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="ugz-DS-2ce">
+                                <rect key="frame" x="30" y="60" width="260" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vXZ-lx-hvc" id="KDS-tI-pnT"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qYX-Dt-PAZ">
+                                <rect key="frame" x="120" y="135" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.28627450980000002" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="搜视频">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Q2S-kN-76R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJ8-SK-WmG">
+                                <rect key="frame" x="225" y="135" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.28627450980000002" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="搜音乐">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Mvu-dz-bEj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p8j-GL-fWh">
+                                <rect key="frame" x="15" y="135" width="80" height="30"/>
+                                <color key="backgroundColor" red="0.98823529409999999" green="0.28627450980000002" blue="0.027450980390000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="4xg-02-n8H"/>
+                                    <constraint firstAttribute="height" constant="30" id="icT-vy-kho"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="搜书籍">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnClicked:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="VVO-6s-DDF"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hJ8-SK-WmG" secondAttribute="trailing" constant="15" id="1hR-iw-mdD"/>
+                            <constraint firstItem="hJ8-SK-WmG" firstAttribute="top" secondItem="qYX-Dt-PAZ" secondAttribute="top" id="8aI-DA-gA6"/>
+                            <constraint firstItem="ugz-DS-2ce" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="60" id="KAc-TC-3pp"/>
+                            <constraint firstItem="p8j-GL-fWh" firstAttribute="top" secondItem="ugz-DS-2ce" secondAttribute="bottom" constant="45" id="M0q-4J-v0E"/>
+                            <constraint firstAttribute="trailing" secondItem="ugz-DS-2ce" secondAttribute="trailing" constant="30" id="W4k-4z-Sdy"/>
+                            <constraint firstItem="hJ8-SK-WmG" firstAttribute="width" secondItem="qYX-Dt-PAZ" secondAttribute="width" id="ZAi-U9-8E2"/>
+                            <constraint firstItem="hJ8-SK-WmG" firstAttribute="height" secondItem="p8j-GL-fWh" secondAttribute="height" id="cpP-z5-TTA"/>
+                            <constraint firstItem="ugz-DS-2ce" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="30" id="eEU-V6-316"/>
+                            <constraint firstAttribute="centerX" secondItem="qYX-Dt-PAZ" secondAttribute="centerX" id="fCy-Vh-me2"/>
+                            <constraint firstItem="hJ8-SK-WmG" firstAttribute="height" secondItem="qYX-Dt-PAZ" secondAttribute="height" id="fDF-G0-bJE"/>
+                            <constraint firstItem="hJ8-SK-WmG" firstAttribute="top" secondItem="p8j-GL-fWh" secondAttribute="top" id="lTZ-lh-Cnj"/>
+                            <constraint firstItem="hJ8-SK-WmG" firstAttribute="width" secondItem="p8j-GL-fWh" secondAttribute="width" id="lsK-PE-imZ"/>
+                            <constraint firstItem="p8j-GL-fWh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="15" id="pdZ-PN-hTJ"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="搜索" id="kaZ-ex-bkZ"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="textField" destination="ugz-DS-2ce" id="3Tp-Ny-wUA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-318" y="77"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
